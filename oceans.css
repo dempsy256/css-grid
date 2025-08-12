@@ -1,0 +1,128 @@
+.grid-container{
+    background-color: skyblue;
+    border-radius: 15px;
+    min-height: 500px;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 300px 1fr 300px;
+    grid-template-rows: 80px 1fr 60px;
+}
+
+.grid-item{
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.Header{
+    grid-column: 1 / span 3;
+    grid-row: 1 / 2;
+    
+}
+
+.Nav{
+    background-color: blueviolet;
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+}
+
+.Content{
+    border-bottom: #fff solid 5px;
+    background-color: lightgray;
+    grid-column: 1 / span 3;
+    grid-row: 2 / 3;
+    text-align: left;
+    padding-left: 90px;
+    background-image: url(/dancing.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain ;
+    background-position: right;
+}
+
+.Sidebar{
+    background-color: gold;
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+}
+
+.Ads{
+    background-color: blueviolet;
+}
+
+.Footer{
+    background-color: black;
+    grid-column: 1 / span 3;
+    grid-row: 3 / 4;
+    color: whitesmoke;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.navbar{
+    border-bottom: #fff solid 5px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    display: flex;
+    grid-column: 1 / span 3;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 20px;
+    background-color: silver;
+}
+
+.nav-links{
+    display: flex;
+    gap: 11rem;
+    list-style: none;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: black;
+}
+
+.search input {
+  padding: 10px;
+  border-radius: 20px;
+  border: skyblue;
+  margin-right: 10px;
+  margin-top: 1px;
+  font-style: italic;
+  
+}
+
+.search button {
+  padding: 10px 20px;
+  border: skyblue;
+  background-color: whitesmoke;
+  color: black;
+  border-radius: 20px;
+}
+
+.header{
+    font-style: oblique;
+    color: black;
+    
+}
+
+.log{
+  background-color: white;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.musiclogo{
+    float: left;
+    width: 70px;
+    height: 50px;
+    border-radius: 50%;
+}
+
